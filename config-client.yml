@@ -1,0 +1,9 @@
+server:
+  port: 8700
+spring:
+  application:
+    name: config-service
+eureka:
+  client:
+    service-url:
+      defaultZone: http://101.35.46.21:8761/eureka
